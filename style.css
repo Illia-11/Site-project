@@ -16,37 +16,33 @@ body {
   height: 100vh;
   background-image: url(./images/showcase.jpg);
   background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
 }
 
-.header-text {
-  height: 84px;
+.header-div {
+  position: absolute;
+  top: 203px;
+  left: auto;
+  right: auto;
+}
+
+.header-heading {
   margin-top: 16px;
   text-align: center;
   width: 300px;
-  color: white;
   font-size: 35px;
 }
 
 .logo {
   width: 180px;
-  height: 180px;
 }
 
 .header-parag {
   width: 300px;
-  height: 54px;
-  color: white;
   margin-top: 16px;
-  text-align: center;
 }
-
-/* .main {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  background-color: black;
-  color: white;
-} */
 
 .section {
   display: flex;
@@ -55,73 +51,62 @@ body {
   align-items: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 300px;
-  height: 162px;
   text-align: center;
   margin-left: 25px;
 }
 
-.section-heading {
-  font-size: 18;
-  font-size: 18px;
-  font-weight: bold;
-  height: 23px;
-  text-align: center;
-  width: 306px;
-  margin: 18px;
-}
-
-.main-parag {
-  width: 307px;
-height: 38px;
-margin: 16px;
-text-align: center;
-
-}
-
-.container {
+.main-container1 {
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
   background-color: black;
   color: white;
-  height: 300px;
+  min-height: 290px;
+  text-align: center;
 }
 
-.container2 {
-  
-color: rgb(51, 51, 51);
-display: flex;
-height: 299px;
-width: 1695px;
-padding: 64px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+.main-container1-heading {
+  font-size: 18px;
+  font-weight: bold;
+  width: 306px;
+  margin-top: 18px;
 }
 
-.container3 {
+.main-container1-paragraph {
+  width: 307px;
+  margin-top: 16px;
+  font-weight: 500;
+}
+
+
+.main-container2 {
   color: rgb(51, 51, 51);
-display:block;
-height: 171px;
-width: 470px;
-margin-left: 10px;
+  display: flex;
+  width: 1695px;
+  padding: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  }
+
+.div {
+  color: rgb(51, 51, 51);
+  display:block;
+  width: 470px;
+  margin-left: 10px;
 }
 
-.container3-heading {
+.div-heading {
   font-weight: bold;
   margin: 18px 0;
-  height: 23px;
   width: 333px;
   font-size: 20px;
 }
 
 .laptop {
-  margin-bottom: 5.71875px;
-margin-left: 135px;
-margin-right: 135px;
-margin-top: 5.71875px;
+  margin: 5px 135px;
 }
 
 .footer {
@@ -131,11 +116,5 @@ margin-top: 5.71875px;
   color: white;
   width: 1695px;
   background-color: rgb(51, 51, 51);
-  height: 89px;
-}
-
-.conatiner4 {
-  width: 960px;
-  height: 170px;
-
+  min-height: 89px;
 }
